@@ -1,0 +1,3 @@
+[submodule "ubuntu-desktop-installer"]
+	path = packages/ubuntu_desktop_installer
+	url = https://github.com/canonical/ubuntu-desktop-installer.git

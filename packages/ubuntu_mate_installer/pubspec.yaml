@@ -1,0 +1,29 @@
+name: ubuntu_mate_installer
+description: Ubuntu MATE Installer
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+  flutter: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  ubuntu_desktop_installer:
+    path: ../ubuntu_desktop_installer/packages/ubuntu_desktop_installer
+  yaru: ^0.2.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/slides/

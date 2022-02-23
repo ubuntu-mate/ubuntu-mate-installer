@@ -1,0 +1,5 @@
+arb-dir: lib/l10n
+template-arb-file: ubuntu_mate_en.arb
+output-class: UbuntuMateLocalizations
+output-localization-file: ubuntu_mate_localizations.dart
+nullable-getter: false
